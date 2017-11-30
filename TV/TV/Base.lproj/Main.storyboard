@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MxD-3h-BxJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App ini mempunyai tujuan untuk membantu para penyandang distabilitas untuk melakukan kegiatan sehari hari" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbt-VM-RNo">
+                                <rect key="frame" x="166" y="422" width="193" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="1K8-B4-lay"/>
+                                    <constraint firstAttribute="width" secondItem="qbt-VM-RNo" secondAttribute="height" multiplier="193:179" id="F3F-Z0-XnS"/>
+                                    <constraint firstAttribute="height" constant="179" id="G0b-kq-jVv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qbt-VM-RNo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="402" id="4Wj-Ro-Sqp"/>
+                            <constraint firstItem="qbt-VM-RNo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="YsY-Ue-aB7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qbt-VM-RNo" secondAttribute="trailing" constant="16" id="egn-nr-epx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qbt-VM-RNo" secondAttribute="bottom" constant="17" id="tBa-gT-fDM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HOME" image="microphone-on-stand" selectedImage="microphone-on-stand" id="IF4-E2-evX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="-221"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="J8w-wK-HYZ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MxD-3h-BxJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PhP-qS-m4c">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0IB-HO-kkp"/>
+                        <segue destination="PTG-q0-Y6h" kind="relationship" relationship="viewControllers" id="HPQ-bc-Vu1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2R3-nf-TXF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-163.19999999999999" y="133.13343328335833"/>
+        </scene>
+        <!--TV-->
+        <scene sceneID="iB4-jG-Fz0">
+            <objects>
+                <viewController id="PTG-q0-Y6h" customClass="VoiceViewController" customModule="TV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZe-Az-pRO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wal.png" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-Qh-8MG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="618" id="K2u-xk-AuZ"/>
+                                    <constraint firstAttribute="width" secondItem="1UR-Qh-8MG" secondAttribute="height" multiplier="125:206" id="Olo-6p-0q2"/>
+                                    <constraint firstAttribute="width" constant="375" id="QEI-NB-feO"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Write Your Text In Here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0h4-uq-mOG">
+                                <rect key="frame" x="16" y="36" width="343" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0h4-uq-mOG" secondAttribute="height" multiplier="343:148" id="3by-Gq-L8n"/>
+                                    <constraint firstAttribute="height" constant="148" id="P5O-Bf-CLD"/>
+                                    <constraint firstAttribute="width" constant="343" id="oH9-BA-7B9"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ssa-0P-WaZ">
+                                <rect key="frame" x="16" y="312" width="343" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="282" id="Wve-Uy-bWi"/>
+                                    <constraint firstAttribute="width" constant="343" id="h8i-YO-oYh"/>
+                                    <constraint firstAttribute="width" secondItem="ssa-0P-WaZ" secondAttribute="height" multiplier="343:282" id="vdr-vW-VSS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEX-hP-03P">
+                                <rect key="frame" x="284" y="210" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="p2L-Ot-IvR"/>
+                                    <constraint firstAttribute="width" constant="64" id="q7R-nq-pcL"/>
+                                    <constraint firstAttribute="width" secondItem="FEX-hP-03P" secondAttribute="height" multiplier="1:1" id="wYC-wo-1QA"/>
+                                </constraints>
+                                <state key="normal" image="amplifier"/>
+                                <connections>
+                                    <action selector="btnDengar:" destination="PTG-q0-Y6h" eventType="touchUpInside" id="wMb-Vw-2Xw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0h4-uq-mOG" firstAttribute="leading" secondItem="Uw8-98-zzv" secondAttribute="leading" constant="16" id="2pM-sr-Bct"/>
+                            <constraint firstItem="FEX-hP-03P" firstAttribute="leading" secondItem="Uw8-98-zzv" secondAttribute="leading" constant="284" id="6eL-fL-tfz"/>
+                            <constraint firstItem="ssa-0P-WaZ" firstAttribute="top" secondItem="FEX-hP-03P" secondAttribute="bottom" constant="38" id="9Bd-Bw-pYO"/>
+                            <constraint firstItem="1UR-Qh-8MG" firstAttribute="top" secondItem="nZe-Az-pRO" secondAttribute="top" id="9qO-5A-iGa"/>
+                            <constraint firstItem="1UR-Qh-8MG" firstAttribute="bottom" secondItem="Uw8-98-zzv" secondAttribute="bottom" id="G9Z-r9-iEL"/>
+                            <constraint firstItem="FEX-hP-03P" firstAttribute="top" secondItem="0h4-uq-mOG" secondAttribute="bottom" constant="26" id="GFO-4D-0zL"/>
+                            <constraint firstItem="ssa-0P-WaZ" firstAttribute="leading" secondItem="Uw8-98-zzv" secondAttribute="leading" constant="16" id="JZT-SK-h9c"/>
+                            <constraint firstItem="1UR-Qh-8MG" firstAttribute="leading" secondItem="Uw8-98-zzv" secondAttribute="leading" id="JbY-2c-6F5"/>
+                            <constraint firstItem="ssa-0P-WaZ" firstAttribute="top" secondItem="FEX-hP-03P" secondAttribute="bottom" constant="38" id="KAR-qs-7eq"/>
+                            <constraint firstItem="Uw8-98-zzv" firstAttribute="trailing" secondItem="FEX-hP-03P" secondAttribute="trailing" constant="27" id="UAs-7A-oyu"/>
+                            <constraint firstItem="Uw8-98-zzv" firstAttribute="trailing" secondItem="ssa-0P-WaZ" secondAttribute="trailing" constant="16" id="Xk8-Yh-Kvw"/>
+                            <constraint firstItem="1UR-Qh-8MG" firstAttribute="trailing" secondItem="Uw8-98-zzv" secondAttribute="trailing" id="bON-Hs-HuL"/>
+                            <constraint firstItem="Uw8-98-zzv" firstAttribute="trailing" secondItem="0h4-uq-mOG" secondAttribute="trailing" constant="16" id="fv8-6P-ylE"/>
+                            <constraint firstItem="Uw8-98-zzv" firstAttribute="bottom" secondItem="ssa-0P-WaZ" secondAttribute="bottom" constant="24" id="kbY-iU-ZSD"/>
+                            <constraint firstItem="FEX-hP-03P" firstAttribute="top" secondItem="0h4-uq-mOG" secondAttribute="bottom" constant="26" id="kpt-7g-6PB"/>
+                            <constraint firstItem="0h4-uq-mOG" firstAttribute="top" secondItem="Uw8-98-zzv" secondAttribute="top" constant="16" id="nUf-OI-Wlf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Uw8-98-zzv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TV" image="microphone-on-stand" selectedImage="microphone-on-stand" id="t3A-6j-DsM"/>
+                    <connections>
+                        <outlet property="etInputTeks" destination="0h4-uq-mOG" id="E1P-3v-miu"/>
+                        <outlet property="teksHasil" destination="ssa-0P-WaZ" id="8yk-qC-o3o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZlD-6y-KE2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="666.39999999999998" y="625.63718140929541"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Wal.png" width="750" height="1334"/>
+        <image name="amplifier" width="64" height="64"/>
+        <image name="microphone-on-stand" width="32" height="32"/>
+    </resources>
+</document>
