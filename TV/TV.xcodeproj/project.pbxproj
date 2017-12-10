@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC077BCC1FCFAD8800607341 /* Wal.png in Resources */ = {isa = PBXBuildFile; fileRef = DC077BCB1FCFAD8700607341 /* Wal.png */; };
+		DC624A101FDCC77100EBF334 /* Sound.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC624A0F1FDCC77000EBF334 /* Sound.jpeg */; };
 		DCFCCE591FCEBB6B000E9FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFCCE581FCEBB6B000E9FA7 /* AppDelegate.swift */; };
 		DCFCCE5B1FCEBB6B000E9FA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFCCE5A1FCEBB6B000E9FA7 /* ViewController.swift */; };
 		DCFCCE5E1FCEBB6B000E9FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFCCE5C1FCEBB6B000E9FA7 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		DC077BCB1FCFAD8700607341 /* Wal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wal.png; sourceTree = "<group>"; };
+		DC624A0F1FDCC77000EBF334 /* Sound.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sound.jpeg; sourceTree = "<group>"; };
 		DCFCCE551FCEBB6B000E9FA7 /* TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFCCE581FCEBB6B000E9FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFCCE5A1FCEBB6B000E9FA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		DCFCCE571FCEBB6B000E9FA7 /* TV */ = {
 			isa = PBXGroup;
 			children = (
+				DC624A0F1FDCC77000EBF334 /* Sound.jpeg */,
 				DC077BCB1FCFAD8700607341 /* Wal.png */,
 				DCFCCE581FCEBB6B000E9FA7 /* AppDelegate.swift */,
 				DCFCCE5A1FCEBB6B000E9FA7 /* ViewController.swift */,
@@ -241,6 +244,7 @@
 				DCFCCE631FCEBB6B000E9FA7 /* LaunchScreen.storyboard in Resources */,
 				DCFCCE601FCEBB6B000E9FA7 /* Assets.xcassets in Resources */,
 				DC077BCC1FCFAD8800607341 /* Wal.png in Resources */,
+				DC624A101FDCC77100EBF334 /* Sound.jpeg in Resources */,
 				DCFCCE5E1FCEBB6B000E9FA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

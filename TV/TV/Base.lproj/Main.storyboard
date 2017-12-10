@@ -19,24 +19,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App ini mempunyai tujuan untuk membantu para penyandang distabilitas untuk melakukan kegiatan sehari hari" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbt-VM-RNo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App ini mempunyai tujuan untuk membantu para penyandang distabilitas untuk melakukan kegiatan sehari hari" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbt-VM-RNo">
                                 <rect key="frame" x="166" y="422" width="193" height="179"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="193" id="1K8-B4-lay"/>
-                                    <constraint firstAttribute="width" secondItem="qbt-VM-RNo" secondAttribute="height" multiplier="193:179" id="F3F-Z0-XnS"/>
-                                    <constraint firstAttribute="height" constant="179" id="G0b-kq-jVv"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sound.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Nd1-C5-kE7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="AdT-qK-Xs3"/>
+                                    <constraint firstAttribute="height" constant="618" id="Tdl-I1-5XX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gro-TP-cdS">
+                                <rect key="frame" x="166" y="380" width="193" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Applikasi "TV" merupakan sebuah singkatan dari Text Voice.Untuk applikasi ini masih di gunakan dalam bahasa Inggris Dan semoga applikasi ini bisa membantu Para Pengguna</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qbt-VM-RNo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="402" id="4Wj-Ro-Sqp"/>
-                            <constraint firstItem="qbt-VM-RNo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="YsY-Ue-aB7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qbt-VM-RNo" secondAttribute="trailing" constant="16" id="egn-nr-epx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qbt-VM-RNo" secondAttribute="bottom" constant="17" id="tBa-gT-fDM"/>
+                            <constraint firstItem="Nd1-C5-kE7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1j7-DB-u7y"/>
+                            <constraint firstItem="Nd1-C5-kE7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2sB-dW-uL3"/>
+                            <constraint firstItem="Nd1-C5-kE7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rXz-AQ-Cmb"/>
+                            <constraint firstItem="Nd1-C5-kE7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="v5C-Ne-MxS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -44,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="-221"/>
+            <point key="canvasLocation" x="997.60000000000002" y="-221.73913043478262"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="J8w-wK-HYZ">
@@ -54,7 +65,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PhP-qS-m4c">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0IB-HO-kkp"/>
@@ -73,7 +84,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wal.png" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-Qh-8MG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sound.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-Qh-8MG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="618" id="K2u-xk-AuZ"/>
@@ -83,6 +94,7 @@
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Write Your Text In Here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0h4-uq-mOG">
                                 <rect key="frame" x="16" y="36" width="343" height="148"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0h4-uq-mOG" secondAttribute="height" multiplier="343:148" id="3by-Gq-L8n"/>
                                     <constraint firstAttribute="height" constant="148" id="P5O-Bf-CLD"/>
@@ -148,7 +160,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Wal.png" width="750" height="1334"/>
+        <image name="Sound.jpeg" width="168" height="300"/>
         <image name="amplifier" width="64" height="64"/>
         <image name="microphone-on-stand" width="32" height="32"/>
     </resources>

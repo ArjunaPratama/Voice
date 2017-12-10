@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wal.png" translatesAutoresizingMaskIntoConstraints="NO" id="vur-mV-3zB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sound.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="vur-mV-3zB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="667" id="VsU-JM-DaC"/>
@@ -44,6 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Wal.png" width="750" height="1334"/>
+        <image name="Sound.jpeg" width="168" height="300"/>
     </resources>
 </document>

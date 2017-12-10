@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named:   "Wal.png")
+        backgroundImage.image = UIImage(named:   "")
         self.view.insertSubview(backgroundImage, at: 0)
         
         super.viewDidLoad()
